@@ -4,13 +4,13 @@ public class Estudiante {
     private String nombre;
     private Grupo grupo;
 
-    // Constructor con nombre y grupo
+    
     public Estudiante(String nombre, Grupo grupo) {
         this.nombre = nombre;
         this.grupo = grupo;
     }
 
-    // Constructor solo con nombre
+    
     public Estudiante(String nombre) {
         this.nombre = nombre;
         this.grupo = null;
